@@ -1,0 +1,82 @@
+/* Reset styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styles */
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h4 {
+    margin: 5px 0 10px 0;
+}
+
+header h2, header h3 {
+    margin: 0;
+}
+
+/* Main content styles */
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-section {
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.location-section h2 {
+    margin-top: 0;
+}
+
+.location-data {
+    margin-bottom: 20px;
+}
+
+.location-data p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Button styles */
+#logButton {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#logButton:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
